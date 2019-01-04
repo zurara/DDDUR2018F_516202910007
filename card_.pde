@@ -16,7 +16,6 @@ Button btnEnter;
 Textfield tf;
 Textlabel monthL;
 Textlabel expenseL;
-Textlabel title;
 
 Boolean first=true;
 
@@ -262,9 +261,4 @@ void monthChart(List<PersonData> list) {
     .setColorValue(#FAFAFA)
     ;
 
-  title = cp5.addTextlabel("tl")
-    .setText("本学期的消费记录")
-    .setPosition(65, 560)
-    .setColorValue(#383939)
-    ;
 }
